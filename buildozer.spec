@@ -28,6 +28,33 @@ orientation = portrait
 fullscreen = 0
 
 
+# Android settings
+
+# Android package version
+android.numeric_version = 1
+
+# Android architectures
+android.archs = arm64-v8a,armeabi-v7a
+
+# Android backup
+android.allow_backup = True
+
+# Android API
+android.api = 35
+
+# Android minimum API
+android.minapi = 23
+
+# Android NDK
+android.ndk = 27c
+
+# Android entry point
+android.entrypoint = org.kivy.android.PythonActivity
+
+# Automatically accept Android SDK licenses
+android.accept_sdk_license = True
+
+
 [buildozer]
 
 # (str) Log level
@@ -35,27 +62,3 @@ log_level = 2
 
 # (bool) Warn if buildozer is run as root
 warn_on_root = 1
-
-
-[app:android]
-
-# (str) Android package version
-android.numeric_version = 1
-
-# (list) Android architectures
-android.archs = arm64-v8a,armeabi-v7a
-
-# (bool) Android backup
-android.allow_backup = True
-
-# (str) Android API
-android.api = 35
-
-# (str) Android minimum API
-android.minapi = 23
-
-# (str) Android NDK
-android.ndk = 27c
-
-# (str) Android entry point
-android.entrypoint = org.kivy.android.PythonActivity
