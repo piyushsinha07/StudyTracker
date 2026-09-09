@@ -28,7 +28,9 @@ orientation = portrait
 fullscreen = 0
 
 
+# --------------------------------------------------
 # Android settings
+# --------------------------------------------------
 
 # Android package version
 android.numeric_version = 1
@@ -42,11 +44,14 @@ android.allow_backup = True
 # Android API
 android.api = 35
 
-# Android minimum API
-android.minapi = 23
+# Minimum Android API
+android.minapi = 24
 
 # Android NDK
 android.ndk = 28c
+
+# NDK API
+android.ndk_api = 24
 
 # Android entry point
 android.entrypoint = org.kivy.android.PythonActivity
