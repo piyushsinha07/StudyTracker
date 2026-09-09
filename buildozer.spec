@@ -46,7 +46,7 @@ android.api = 35
 android.minapi = 23
 
 # Android NDK
-android.ndk = 27c
+android.ndk = 28c
 
 # Android entry point
 android.entrypoint = org.kivy.android.PythonActivity
